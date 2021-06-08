@@ -22,6 +22,10 @@ button {
 	border: none;
 }
 
+input, texr-area {
+	outline: none;
+}
+
 .clearfix{
 	clear: both;
 }
@@ -54,7 +58,7 @@ main-header {
 	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: center;
-	
+
 	position: relative;
 	width: 582px;
 	height: 52px;
@@ -64,11 +68,13 @@ main-header {
 #main-header .search_warp {
 	width: calc(100%-52px);
 	height: 100%;
-	background-color: yellow;
 	padding: 13px 15px;
 
 	font-size: 22px;
 	border: none;
+
+#main-header .search_warp input: focus;
+	outline: ;
 
 #main-header .search_warp {
 	width: 52px;
@@ -78,9 +84,52 @@ main-header {
 
 
 
+-----------
 
+#main_right #account {
+	width: 100%;
+	border: solid 1px #deele6;
+	padding: 16px 16px 12px 16px;
+}
 
+#main_right #account a {
+	display: block;
+	width: 100%;
+	background-color: #19ce60;
+	border-radius: 2px;
 
+	padding: 15px 0;
+
+	text-align: center;
+	font-size: 13px;
+	color: #fff;
+	font-weight: 700;
+}
+
+#main_right #account .account_sub {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+
+	padding: 0 8px;
+}
+
+#main_right #account .account_sub span {
+	font-size: 12px;
+}
+
+#main_right #banner {
+	width: 348px;
+	height: 198px;
+	background-color: #000000;
+}
+
+#main_right #banner {
+	width: 348px;
+	height: 198px;
+	background-color: #000000;
+}
 
 
 
