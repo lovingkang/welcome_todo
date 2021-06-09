@@ -1,4 +1,5 @@
-* {
+/* Default CSS */
+html, body {
 	margin: 0;
 	padding: 0;
 
@@ -132,6 +133,28 @@ main-header {
 }
 
 
+
+
+
+#shop-header #shop-header-top {
+	width: 100%;
+	height: 36px;
+	background-color: #83c75a;
+	border-bottom: solid 1px ;
+}
+
+
+#shop-header #shop-header-middle {
+	width: 100%;
+	height: 66px;
+	background-color: #83c75a;
+}
+
+#shop-header  nav {
+	width: 100%;
+	border-top: solid 1px #e8e8e8;
+	border-bottom: sold 1px #e8e8e8;
+}
 
 
 
